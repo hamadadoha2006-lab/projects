@@ -1,0 +1,22 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+.content h1{
+    font-family: "Archivo Black", sans-serif;
+    padding: 0;
+}
+.content p{
+    font-size: 1.5rem;
+}
+.content button{
+    width: 250px;
+    height: 80px;
+    background-color: blue;
+    color: white;
+}
+.content button:hover{
+    background-color: green;
+    cursor: auto;
+}
